@@ -4,7 +4,7 @@ public class Rotate_Array {
     public static void main(String[] args) {
         int[] arr = { 7, 3, 5, 6, 2 }; // Example input
         int n = arr.length;
-        int d = 7; // Number of positions to rotate left
+        int d = -4; // Number of positions to rotate left
 
         rotateLeft(arr, n, d);
         System.out.println(Arrays.toString(arr)); // Output the rotated array
